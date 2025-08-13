@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9802ab;
+    margin: 0;
+}
+
+.form{
+    width: 350px;
+    padding: 40px;
+    background-color: #24203b;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.profil_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #24203b;
+    outline: 3px solid #6a1b9a;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #918faa;
+}
+
+.t{
+    font-size: 0.9rem;
+    color: #a79e9e;
+    margin-bottom: 15px;
+}
+
+.description{
+    font-size: 1rem;
+    color: #a79e9e;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.buttons button {
+    padding: 12px 25px;
+    width: 100%;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.buttons button:hover {
+    transform: translateY(-2px);
+}
+
+.massage-btn {
+    background-color: #c300d5;
+    color: #ffff;
+    border: none;
+}
+.following-btn {
+    background-color: #24203b;
+    color: #FF00FF;
+    border: 1px solid #FF00FF;
+}
+.skills-section {
+    text-align: left;
+}
+
+.skills-title {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    background-color: #4a386c;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: #eee;
+}
